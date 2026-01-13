@@ -1,0 +1,168 @@
+{
+    "info": {
+        "count": 10,
+        "totalPages": 1,
+        "previousPage": null,
+        "nextPage": null
+    },
+    "data": [
+        {
+            "_id": 19,
+            "films": [],
+            "shortFilms": [],
+            "tvShows": [
+                "Once Upon a Time"
+            ],
+            "videoGames": [],
+            "parkAttractions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Abigail",
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/dd/Regalblond.jpg",
+            "url": "https://api.disneyapi.dev/characters/19"
+        },
+        {
+            "_id": 942,
+            "films": [],
+            "shortFilms": [],
+            "tvShows": [],
+            "videoGames": [],
+            "parkAttractions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Abigail Bullion",
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/69/AbigailBullion.jpg",
+            "url": "https://api.disneyapi.dev/characters/942"
+        },
+        {
+            "_id": 1005,
+            "films": [
+                "Big Hero 6"
+            ],
+            "shortFilms": [],
+            "tvShows": [
+                "Big Hero 6: The Series"
+            ],
+            "videoGames": [
+                "Disney Crossy Road"
+            ],
+            "parkAttractions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Abigail Callaghan",
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/03/Abigail_Callaghan.jpg",
+            "url": "https://api.disneyapi.dev/characters/1005"
+        },
+        {
+            "_id": 1188,
+            "films": [
+                "National Treasure",
+                "National Treasure: Book of Secrets"
+            ],
+            "shortFilms": [],
+            "tvShows": [],
+            "videoGames": [],
+            "parkAttractions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Abigail Chase",
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/1/15/National_Treasure_Book_of_Secrets_-_Photography_-_Abigail_Chase.jpg",
+            "url": "https://api.disneyapi.dev/characters/1188"
+        },
+        {
+            "_id": 2842,
+            "films": [
+                "Tower of Terror (film)"
+            ],
+            "shortFilms": [],
+            "tvShows": [],
+            "videoGames": [],
+            "parkAttractions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Abigail Gregory",
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/d5/Amzie_Strickland.jpg",
+            "url": "https://api.disneyapi.dev/characters/2842"
+        },
+        {
+            "_id": 17,
+            "films": [],
+            "shortFilms": [],
+            "tvShows": [
+                "The Legend of Tarzan"
+            ],
+            "videoGames": [],
+            "parkAttractions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Abigail Markham",
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/9/95/Abigail_Markham.jpeg",
+            "url": "https://api.disneyapi.dev/characters/17"
+        },
+        {
+            "_id": 6766,
+            "films": [],
+            "shortFilms": [],
+            "tvShows": [
+                "A.N.T. Farm"
+            ],
+            "videoGames": [],
+            "parkAttractions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Abigail Timmons",
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/dc/Untitled_1_Lexi_Reed.png",
+            "url": "https://api.disneyapi.dev/characters/6766"
+        },
+        {
+            "_id": 2526,
+            "films": [
+                "The Aristocats"
+            ],
+            "shortFilms": [],
+            "tvShows": [
+                "House of Mouse"
+            ],
+            "videoGames": [
+                "Disney Heroes: Battle Mode"
+            ],
+            "parkAttractions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Abigail and Amelia Gabble",
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/5d/Abigail_and_Amelia_Gabble.jpg",
+            "url": "https://api.disneyapi.dev/characters/2526"
+        },
+        {
+            "_id": 18,
+            "films": [
+                "The Fox and the Hound",
+                "The Fox and the Hound 2"
+            ],
+            "shortFilms": [],
+            "tvShows": [],
+            "videoGames": [],
+            "parkAttractions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Abigail the Cow",
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/05/Fox-disneyscreencaps_com-901.jpg",
+            "url": "https://api.disneyapi.dev/characters/18"
+        },
+        {
+            "_id": 20,
+            "films": [],
+            "shortFilms": [],
+            "tvShows": [
+                "Elena of Avalor"
+            ],
+            "videoGames": [],
+            "parkAttractions": [],
+            "allies": [],
+            "enemies": [],
+            "name": "Queen Abigail",
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/c0/Queen_Abigail.jpg",
+            "url": "https://api.disneyapi.dev/characters/20"
+        }
+    ]
+}
