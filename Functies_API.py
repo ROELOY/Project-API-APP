@@ -29,3 +29,17 @@ def Naam_Ver_Films(naam):
     Character_Van_Film = info_response.get("data", [])
 
     return Character_Van_Film
+
+def vraag_ja_nee(vraag):
+    while True:
+        antwoord = input(vraag).strip().upper()
+        if antwoord in ["ja", "nee"]:
+            return antwoord
+        print("Ongeldige input. Typ ja of nee.")
+
+def vraag_media_type(vraag):
+    while True:
+        antwoord = input(vraag).strip().upper()
+        if antwoord in ["film", "serie", "shortfilm"]:
+            return antwoord
+        print("Ongeldige keuze. Typ film, serie of shortfilm.")

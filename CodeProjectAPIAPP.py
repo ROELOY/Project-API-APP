@@ -34,7 +34,7 @@ while True:
             print(f"-ShortFilms:{RandomPersonage['shortFilms']}")
 
         print("-----------------------------------------------------------")
-        antwoordVraag2 = input(f"\n Wil je een foto van het character {RandomPersonage['name']} zien (ja/nee): ")
+        antwoordVraag2 = Functies_API.vraag_ja_nee(f"\n Wil je een foto van het character {RandomPersonage['name']} zien (ja/nee): ")
         print("-----------------------------------------------------------")
         if antwoordVraag2.upper() == "NEE":
             continue
@@ -51,7 +51,7 @@ while True:
             continue
 
         print("-----------------------------------------------------------")
-        Keuze_Video = input("\n Wil je meer weten in welke film / serie / shortfilm: ")
+        Keuze_Video = Functies_API.vraag_media_type("\n Wil je meer weten in welke film / serie / shortfilm: ")
         print("-----------------------------------------------------------")
 
         character = resultaten[0]
@@ -85,7 +85,7 @@ while True:
             print("Ongeldige keuze. Typ FILM, SERIE of SHORTFILM.")
 
         print("-----------------------------------------------------------")
-        antwoordVraag2 = input(f"\n Wil je een foto van het character {character['name']} zien (ja/nee): ")
+        antwoordVraag2 = Functies_API.vraag_ja_nee(f"\n Wil je een foto van het character {character['name']} zien (ja/nee): ")
         print("-----------------------------------------------------------")
         if antwoordVraag2.upper() == "NEE":
             print('Volgende vraag')
@@ -95,13 +95,13 @@ while True:
             print(f"-Image-URL: {Image_url}")
 
         print("-----------------------------------------------------------")
-        antwoordVraag3 = input(f"\n Wil je meer info weten van {character['name']} (ja/nee): ")
+        antwoordVraag3 = Functies_API.vraag_ja_nee(f"\n Wil je meer info weten van {character['name']} (ja/nee): ")
         print("-----------------------------------------------------------")
 
         if antwoordVraag3.upper() == "NEE":
             continue
         else:
-            antwoordVraag4 = input(f"\n Wil je weten als {character['name']} bondgenoten heeft (ja/nee): ")
+            antwoordVraag4 = Functies_API.vraag_ja_nee(f"\n Wil je weten als {character['name']} bondgenoten heeft (ja/nee): ")
             print("-----------------------------------------------------------")
 
             if antwoordVraag4.upper() == "NEE":
@@ -120,7 +120,7 @@ while True:
                     print("-Voorlaatste vraag") 
                     print("-----------------------------------------------------------")
 
-            antwoordVraag5 = input(f"\n Wil je weten als {character['name']} vijanden heeft (ja/nee): ")
+            antwoordVraag5 = Functies_API.vraag_ja_nee(f"\n Wil je weten als {character['name']} vijanden heeft (ja/nee): ")
             print("-----------------------------------------------------------")
 
             if antwoordVraag5.upper() == "NEE":
@@ -139,7 +139,7 @@ while True:
                     print("-laatste vraag")
                     print("-----------------------------------------------------------")
 
-            antwoordVraag6 = input(f"\n Wil je weten als {character['name']} een attractie heeft (ja/nee): ")
+            antwoordVraag6 = Functies_API.vraag_ja_nee(f"\n Wil je weten als {character['name']} een attractie heeft (ja/nee): ")
             print("-----------------------------------------------------------")
 
             if antwoordVraag6.upper() == "NEE":
