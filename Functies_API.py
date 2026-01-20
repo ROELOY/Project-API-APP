@@ -21,3 +21,11 @@ def get_random_character():
 
         character = random.choice(characters) # kies een random character van die pagina.
         return character
+
+def Naam_Ver_Films(naam):
+    info_url = url = f"https://api.disneyapi.dev/character?name={naam}"
+    info_response = requests.get(info_url).json()
+
+    Character_Van_Film = info_response.get("data", [])
+
+    return Character_Van_Film

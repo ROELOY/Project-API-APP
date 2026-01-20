@@ -1,168 +1,151 @@
 {
     "info": {
-        "count": 10,
+        "count": 2,
         "totalPages": 1,
         "previousPage": null,
         "nextPage": null
     },
     "data": [
         {
-            "_id": 19,
-            "films": [],
-            "shortFilms": [],
-            "tvShows": [
-                "Once Upon a Time"
-            ],
-            "videoGames": [],
-            "parkAttractions": [],
-            "allies": [],
-            "enemies": [],
-            "name": "Abigail",
-            "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/dd/Regalblond.jpg",
-            "url": "https://api.disneyapi.dev/characters/19"
-        },
-        {
-            "_id": 942,
-            "films": [],
-            "shortFilms": [],
-            "tvShows": [],
-            "videoGames": [],
-            "parkAttractions": [],
-            "allies": [],
-            "enemies": [],
-            "name": "Abigail Bullion",
-            "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/69/AbigailBullion.jpg",
-            "url": "https://api.disneyapi.dev/characters/942"
-        },
-        {
-            "_id": 1005,
+            "_id": 1947,
             "films": [
-                "Big Hero 6"
+                "The Reluctant Dragon",
+                "Saludos Amigos",
+                "The Three Caballeros",
+                "Fun and Fancy Free",
+                "Melody Time",
+                "Where the Toys Come From",
+                "Who Framed Roger Rabbit",
+                "The Little Mermaid (1989 film)",
+                "DuckTales the Movie: Treasure of the Lost Lamp",
+                "Disney's Sing-Along Songs: The Twelve Days of Christmas",
+                "A Goofy Movie",
+                "James and the Giant Peach",
+                "Mickey's Once Upon a Christmas",
+                "Fantasia 2000",
+                "Mickey's Magical Christmas: Snowed in at the House of Mouse",
+                "Mickey's House of Villains",
+                "Once Upon a Halloween",
+                "The Lion King 1\u00bd",
+                "Mickey, Donald, Goofy: The Three Musketeers",
+                "Mickey's Twice Upon a Christmas",
+                "Saving Mr. Banks",
+                "Luca",
+                "Pinocchio (2022 film)"
             ],
             "shortFilms": [],
             "tvShows": [
-                "Big Hero 6: The Series"
+                "Walt Disney anthology series",
+                "The Mickey Mouse Club",
+                "The Mouse Factory",
+                "Adventures of the Gummi Bears",
+                "DuckTales",
+                "Goof Troop",
+                "Bill Nye the Science Guy",
+                "Bonkers",
+                "Mickey's Fun Songs",
+                "Aladdin (TV series)",
+                "Gargoyles",
+                "Quack Pack",
+                "101 Dalmatians: The Series",
+                "Mickey Mouse Works",
+                "House of Mouse",
+                "Mickey Mouse Clubhouse",
+                "Have a Laugh!",
+                "Imagination Movers",
+                "Mickey Mousekersize",
+                "A Poem Is...",
+                "Mickey Mouse (TV series)",
+                "Stitch!",
+                "Minnie's Bow-Toons",
+                "It's a Small World: The Animated Series",
+                "Mickey Mouse Mixed-Up Adventures",
+                "DuckTales (2017 series)",
+                "Legend of the Three Caballeros",
+                "Mickey Go Local",
+                "The Wonderful World of Mickey Mouse",
+                "Chip 'n' Dale: Park Life",
+                "Mickey Mouse Funhouse",
+                "Broken Karaoke",
+                "Chibiverse",
+                "How NOT to Draw",
+                "wikipedia:Hot Ones",
+                "Mickey Mouse Clubhouse+"
             ],
             "videoGames": [
-                "Disney Crossy Road"
+                "Adventures in the Magic Kingdom",
+                "QuackShot",
+                "The Lucky Dime Caper starring Donald Duck",
+                "Illusion (series)",
+                "Deep Duck Trouble",
+                "Maui Mallard in Cold Shadow",
+                "Donald Duck no Mah\u00f4 no B\u00f4shi",
+                "Donald Duck: Goin' Quackers!",
+                "Kingdom Hearts (series)",
+                "Disney Move",
+                "PK: Out of the Shadows",
+                "Kinect: Disneyland Adventures",
+                "Epic Mickey: Power of Illusion",
+                "Disney Magic Kingdoms",
+                "Disney Magical World",
+                "Disney Magical World 2",
+                "Disney Infinity (series)",
+                "Disney Tsum Tsum (game)",
+                "Disney Crossy Road",
+                "Disney Emoji Blitz",
+                "Disney Magical Dice",
+                "Disney Heroes: Battle Mode",
+                "Disney All-Star Racers",
+                "Disney All-Star Party",
+                "Disney Mirrorverse",
+                "Disney Dreamlight Valley",
+                "Disney Speedstorm"
             ],
-            "parkAttractions": [],
+            "parkAttractions": [
+                "Fantasmic!",
+                "Move It! Shake It! MousekeDance It! Street Party",
+                "Mickey's Philharmagic",
+                "Mickey Mouse Revue",
+                "Mickey and Minnie's Runaway Railway",
+                "Dream Along With Mickey",
+                "Gran Fiesta Tour Starring the Three Caballeros",
+                "Mickey's Soundsational Parade",
+                "Main Street Electrical Parade",
+                "One Man's Dream II: The Magic Lives On!",
+                "Miss Daisy",
+                "It's a Small World",
+                "It's a Small World Holiday",
+                "It's a Small World with Groot",
+                "Midship Detective Agency",
+                "The AquaDuck",
+                "My Friend Duffy",
+                "Parade of the Stars",
+                "The Golden Mickeys",
+                "Festival of Fantasy Parade",
+                "Paint the Night Parade",
+                "World of Color",
+                "Roger Rabbit's Car Toon Spin"
+            ],
             "allies": [],
             "enemies": [],
-            "name": "Abigail Callaghan",
-            "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/03/Abigail_Callaghan.jpg",
-            "url": "https://api.disneyapi.dev/characters/1005"
+            "name": "Donald Duck",
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/a/ab/Donald_Duck_Disney_1.png",
+            "url": "https://api.disneyapi.dev/characters/1947"
         },
         {
-            "_id": 1188,
-            "films": [
-                "National Treasure",
-                "National Treasure: Book of Secrets"
+            "_id": 1852,
+            "films": [],
+            "shortFilms": [
+                "How to Have an Accident at Work"
             ],
-            "shortFilms": [],
             "tvShows": [],
             "videoGames": [],
             "parkAttractions": [],
             "allies": [],
             "enemies": [],
-            "name": "Abigail Chase",
-            "imageUrl": "https://static.wikia.nocookie.net/disney/images/1/15/National_Treasure_Book_of_Secrets_-_Photography_-_Abigail_Chase.jpg",
-            "url": "https://api.disneyapi.dev/characters/1188"
-        },
-        {
-            "_id": 2842,
-            "films": [
-                "Tower of Terror (film)"
-            ],
-            "shortFilms": [],
-            "tvShows": [],
-            "videoGames": [],
-            "parkAttractions": [],
-            "allies": [],
-            "enemies": [],
-            "name": "Abigail Gregory",
-            "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/d5/Amzie_Strickland.jpg",
-            "url": "https://api.disneyapi.dev/characters/2842"
-        },
-        {
-            "_id": 17,
-            "films": [],
-            "shortFilms": [],
-            "tvShows": [
-                "The Legend of Tarzan"
-            ],
-            "videoGames": [],
-            "parkAttractions": [],
-            "allies": [],
-            "enemies": [],
-            "name": "Abigail Markham",
-            "imageUrl": "https://static.wikia.nocookie.net/disney/images/9/95/Abigail_Markham.jpeg",
-            "url": "https://api.disneyapi.dev/characters/17"
-        },
-        {
-            "_id": 6766,
-            "films": [],
-            "shortFilms": [],
-            "tvShows": [
-                "A.N.T. Farm"
-            ],
-            "videoGames": [],
-            "parkAttractions": [],
-            "allies": [],
-            "enemies": [],
-            "name": "Abigail Timmons",
-            "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/dc/Untitled_1_Lexi_Reed.png",
-            "url": "https://api.disneyapi.dev/characters/6766"
-        },
-        {
-            "_id": 2526,
-            "films": [
-                "The Aristocats"
-            ],
-            "shortFilms": [],
-            "tvShows": [
-                "House of Mouse"
-            ],
-            "videoGames": [
-                "Disney Heroes: Battle Mode"
-            ],
-            "parkAttractions": [],
-            "allies": [],
-            "enemies": [],
-            "name": "Abigail and Amelia Gabble",
-            "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/5d/Abigail_and_Amelia_Gabble.jpg",
-            "url": "https://api.disneyapi.dev/characters/2526"
-        },
-        {
-            "_id": 18,
-            "films": [
-                "The Fox and the Hound",
-                "The Fox and the Hound 2"
-            ],
-            "shortFilms": [],
-            "tvShows": [],
-            "videoGames": [],
-            "parkAttractions": [],
-            "allies": [],
-            "enemies": [],
-            "name": "Abigail the Cow",
-            "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/05/Fox-disneyscreencaps_com-901.jpg",
-            "url": "https://api.disneyapi.dev/characters/18"
-        },
-        {
-            "_id": 20,
-            "films": [],
-            "shortFilms": [],
-            "tvShows": [
-                "Elena of Avalor"
-            ],
-            "videoGames": [],
-            "parkAttractions": [],
-            "allies": [],
-            "enemies": [],
-            "name": "Queen Abigail",
-            "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/c0/Queen_Abigail.jpg",
-            "url": "https://api.disneyapi.dev/characters/20"
+            "name": "Donald Duck's son",
+            "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/cc/Donald%27s_son.jpg",
+            "url": "https://api.disneyapi.dev/characters/1852"
         }
     ]
 }
