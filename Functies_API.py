@@ -33,13 +33,13 @@ def Naam_Ver_Films(naam):
 def vraag_ja_nee(vraag):
     while True:
         antwoord = input(vraag).strip().upper()
-        if antwoord in ["ja", "nee"]:
+        if antwoord in ["JA", "NEE"]:
             return antwoord
         print("Ongeldige input. Typ ja of nee.")
 
 def vraag_media_type(vraag):
     while True:
         antwoord = input(vraag).strip().upper()
-        if antwoord in ["film", "serie", "shortfilm"]:
+        if antwoord in ["FILM", "SERIE", "SHORTFILM"]:
             return antwoord
         print("Ongeldige keuze. Typ film, serie of shortfilm.")

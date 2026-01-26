@@ -145,7 +145,7 @@ while True:
             if antwoordVraag6.upper() == "NEE":
                 print("-----------------------------------------------------------")
             else:
-                if character['enemies'] == []:
+                if character['parkAttractions'] == []:
                     print(f"{character['name']} Heeft geen attractie.")
                     print("-----------------------------------------------------------")
                 else:
@@ -156,11 +156,56 @@ while True:
 
 
     elif antwoordVraag1 == "3":
-        input("\n Welke naam wil je opzoeken van een bepaalde film van Disney: ")
+        FilmNaam = input("\n Welke naam wil je opzoeken van een bepaalde film van Disney: ")
 
         print("-----------------------------------------------------------")
 
-        input("\n Van welke film wil je dit character opzoeken: ")
+        FilmCharacter = input("\n Van welke film wil je dit character opzoeken: ")
+
+        print("-----------------------------------------------------------")
+
+        resultaten = Functies_API.Naam_Ver_Films(FilmNaam)
+
+        if not resultaten:
+            print("Geen character gevonden met die naam.")
+            continue
+
+        matchende_characters = [
+            c for c in resultaten
+            if FilmCharacter.lower() in [f.lower() for f in c.get("films", [])]
+        ]
+
+        if not matchende_characters:
+            print(f"Geen resultaten: {FilmNaam} komt niet voor in de film '{FilmCharacter}'.")
+            continue
+
+        character = matchende_characters[0]
+
+        print(f"{character['name']} komt voor in de film '{FilmCharacter}'.")
+        print("-----------------------------------------------------------")
+
+        if Functies_API.vraag_ja_nee(f"Wil je een foto zien van {character['name']} (ja/nee): ") == "JA":
+            print(f"Image URL: {character['imageUrl']}")
+
+        print("-----------------------------------------------------------")
+
+        if Functies_API.vraag_ja_nee(f"Wil je meer info over {character['name']} (ja/nee): ") == "JA":
+
+            allies = character.get("allies", [])
+            enemies = character.get("enemies", [])
+            attractions = character.get("parkAttractions", [])
+
+            print("\nBondgenoten:")
+            print(allies if allies else "Geen bondgenoten")
+
+            print("\nVijanden:")
+            print(enemies if enemies else "Geen vijanden")
+
+            print("\nAttracties:")
+            print(attractions if attractions else "Geen attracties")
+
+        print("-----------------------------------------------------------")
+        continue
 
     elif antwoordVraag1 == "4":
         break
